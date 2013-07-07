@@ -7,6 +7,10 @@
 sudo apt-get install -y git-core
 curl https://raw.github.com/creationix/nvm/master/install.sh | sh
 
+# Install heroku toolbelt
+# https://toolbelt.heroku.com/debian
+wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
+
 # Load nvm and install latest production node
 source $HOME/.nvm/nvm.sh
 nvm install v0.10.12
